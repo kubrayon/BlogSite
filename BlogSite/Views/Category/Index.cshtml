@@ -2,15 +2,17 @@
 @{
     Layout = null;
 }
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
 
 <h3> KATEGORİLER</h3>
-<br/>
-<table>
+<br />
+<table class="table table-bordered">
     <tr>
         <th>ID</th>
         <th>Adı</th>
         <th>Açıklama</th>
         <th>Durum</th>
+        <th>Güncelle</th>
 
     </tr>
     <tr>
@@ -18,11 +20,24 @@
         <td>Film</td>
         <td>assdfgggghgh</td>
         <td>True</td>
+        <td><button class="btn btn-primary">Güncelle</button></td>
     </tr>
     <tr>
         <td>2</td>
         <td>Kitap</td>
         <td>assdfggggffhgh</td>
         <td>True</td>
+        <td><button class="btn btn-primary">Güncelle</button></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Haberler</td>
+        <td>assdfggggffgggghgh</td>
+        <td>True</td>
+        <td><button class="btn btn-primary">Güncelle</button></td>
     </tr>
 </table>
+<button class="btn btn-danger">Yeni Kategori</button>
+<button class="btn btn-success">Kategori Listesi</button>
+<button class="btn btn-danger">Kategori Açıklama</button>
+

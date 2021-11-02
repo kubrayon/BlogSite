@@ -54,7 +54,7 @@
     <Compile Include="Abstracts\ICategoryService.cs" />
     <Compile Include="Concreate\CategoryManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ValidationRules\CategoryValidatior.cs" />
+    <Compile Include="ValidationRules\CategoryValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">

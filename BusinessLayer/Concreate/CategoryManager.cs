@@ -19,6 +19,16 @@ namespace BusinessLayer.Concreate
             _categorydal = categorydal;
         }
 
+        //public void CategoryAdd(Category category)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        public void CategoryAddBL(Category category)
+        {
+            _categorydal.Insert(category);
+        }
+
         //GenericRepository<Category> repo = new GenericRepository<Category>();
 
         //public List<Category> GetAllBL()

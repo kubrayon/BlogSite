@@ -20,6 +20,7 @@ namespace EntityLayer.Concreate
         public virtual Category Category { get; set; }
         public int WriterID { get; set; }
         public virtual Writer Writer { get; set; }
+        public bool HeadingStatus { get; set; }
 
         public ICollection<Content> Contents { get; set; }
 

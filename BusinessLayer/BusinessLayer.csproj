@@ -55,11 +55,14 @@
     <Compile Include="Abstracts\ICategoryService.cs" />
     <Compile Include="Abstracts\IContentService.cs" />
     <Compile Include="Abstracts\IHeadingService.cs" />
+    <Compile Include="Abstracts\IImageFileService.cs" />
     <Compile Include="Abstracts\IWriterService.cs" />
+    <Compile Include="Classes\Password.cs" />
     <Compile Include="Concreate\AboutManager.cs" />
     <Compile Include="Concreate\CategoryManager.cs" />
     <Compile Include="Concreate\ContentManager.cs" />
     <Compile Include="Concreate\HeadingManager.cs" />
+    <Compile Include="Concreate\ImageFileManager.cs" />
     <Compile Include="Concreate\WriterManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValidationRules\CategoryValidator.cs" />

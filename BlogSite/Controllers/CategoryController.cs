@@ -16,6 +16,7 @@ namespace BlogSite.Controllers
         // GET: Category
 
         CategoryManager cm = new CategoryManager(new EFCategoryDal());
+        [Authorize]
         public ActionResult Index()
         {
             return View();

@@ -58,6 +58,7 @@
     <Compile Include="Abstracts\IContactDal.cs" />
     <Compile Include="Abstracts\IContentDal.cs" />
     <Compile Include="Abstracts\IHeadingDal.cs" />
+    <Compile Include="Abstracts\IImageFileDal.cs" />
     <Compile Include="Abstracts\IRepository.cs" />
     <Compile Include="Abstracts\IWriterDal.cs" />
     <Compile Include="Concreate\Context.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="EntityFramework\EFContactDal.cs" />
     <Compile Include="EntityFramework\EFContentDal.cs" />
     <Compile Include="EntityFramework\EFHeadingDal.cs" />
+    <Compile Include="EntityFramework\EFImageFileDal.cs" />
     <Compile Include="EntityFramework\EFWriterDal.cs" />
     <Compile Include="Migrations\202110291810199_mig1.cs" />
     <Compile Include="Migrations\202110291810199_mig1.Designer.cs">
@@ -91,6 +93,18 @@
     <Compile Include="Migrations\202111071503163_mig_headingstatus.cs" />
     <Compile Include="Migrations\202111071503163_mig_headingstatus.Designer.cs">
       <DependentUpon>202111071503163_mig_headingstatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202111081605270_mig_image1.cs" />
+    <Compile Include="Migrations\202111081605270_mig_image1.Designer.cs">
+      <DependentUpon>202111081605270_mig_image1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202111081709026_mig_admin.cs" />
+    <Compile Include="Migrations\202111081709026_mig_admin.Designer.cs">
+      <DependentUpon>202111081709026_mig_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202111082025587_mig_sha512.cs" />
+    <Compile Include="Migrations\202111082025587_mig_sha512.Designer.cs">
+      <DependentUpon>202111082025587_mig_sha512.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -123,6 +137,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202111071503163_mig_headingstatus.resx">
       <DependentUpon>202111071503163_mig_headingstatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111081605270_mig_image1.resx">
+      <DependentUpon>202111081605270_mig_image1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111081709026_mig_admin.resx">
+      <DependentUpon>202111081709026_mig_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111082025587_mig_sha512.resx">
+      <DependentUpon>202111082025587_mig_sha512.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
